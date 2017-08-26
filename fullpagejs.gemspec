@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "fullpagejs/version"
+require "fullpagejs/rails/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "fullpagejs"
-  spec.version       = Fullpagejs::VERSION
+  spec.version       = Fullpagejs::Rails::VERSION
   spec.authors       = ["Heisenberg"]
   spec.email         = ["vs9390@gmail.com"]
 
